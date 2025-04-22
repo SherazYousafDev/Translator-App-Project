@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Satoshi", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  font-family: "Satoshi", sans-serif;
+}
+
+.container {
+  flex: 1;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-boxes {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#fromText,
+#toText {
+  width: 100%;
+  height: 350px;
+  font-size: 20px;
+  padding: 30px;
+  border: 1px solid #80868b;
+  outline: none;
+  border-radius: 10px;
+  resize: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+#toText {
+  background-color: #e9e9e9;
+  border: none;
+}
+
+/* TOOL-BOX */
+
+.tool-box {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #496fe0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tool-box-1 {
+  border-right: 5px solid #e8eaed;
+}
+
+.tool-box-2 {
+  border-left: 5px solid #e8eaed;
+}
+
+.tool-box-1,
+.tool-box-2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tool-box-1 img,
+.tool-box-2 img {
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 25px;
+}
+
+.tool-box-1 img:hover,
+.tool-box-2 img:hover {
+  scale: 130%;
+}
+
+#select-1,
+#select-2 {
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+#translate {
+  margin-top: 50px;
+  width: 350px;
+  height: 60px;
+  background-color: #496fe0;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#translate:hover {
+  background-color: #3956ad;
+}
+
+textarea:focus,
+select:focus,
+button:focus {
+  outline: 2px solid #496fe0;
+  outline-offset: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #222222b0;
+}
+
+footer span {
+  font-style: italic;
+  font-weight: 600;
+  color: #3956ad;
+}
+
+.red-heart {
+  color: red;
+  font-style: normal;
+  font-size: 16px;
+}

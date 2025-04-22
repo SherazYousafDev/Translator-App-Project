@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translator App</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="././assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./assets/css/media.css" />
+
+    <!-- Font Link -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@1,2,3,4,5&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-boxes">
+        <textarea id="fromText" placeholder="Write Your Text"></textarea>
+        <textarea id="toText" placeholder="Translation...."></textarea>
+      </div>
+
+      <!-- Tools box -->
+      <div class="tool-box">
+        <div class="tool-box-1">
+          <img
+            src="././assets/images/copy.svg"
+            id="from"
+            class="copy"
+            title="Copy"
+          />
+          <img
+            src="././assets/images/speaker.svg"
+            id="from"
+            class="speaker"
+            title="Speaker"
+          />
+          <select id="select-1"></select>
+        </div>
+
+        <div class="tool-box-2">
+          <img
+            src="././assets/images/copy.svg"
+            id="to"
+            class="copy"
+            title="Copy"
+          />
+          <img
+            src="././assets/images/speaker.svg"
+            id="to"
+            class="speaker"
+            title="Speaker"
+          />
+          <select id="select-2"></select>
+        </div>
+      </div>
+
+      <!-- Translate button -->
+      <button id="translate">Translate</button>
+
+      <!-- Footer -->
+    </div>
+    <footer>
+      Made With <span class="red-heart">❤</span> By <span>Sheraz Yousaf.</span>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
