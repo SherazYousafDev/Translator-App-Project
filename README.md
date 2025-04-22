@@ -20,13 +20,9 @@ A simple web-based translator that allows you to translate text between language
 
 ## 🌐 Live Demo
 
+https://sherazyousafdev.github.io/Translator-App-Project/
 
 
-
-
-## How to run the project:
-
-Open "index.html" in your browser.
 ## 🔗 API Used
 
 This project uses the [MyMemory Translation API](https://mymemory.translated.net/doc/), a free public API that allows translation between many language pairs.
